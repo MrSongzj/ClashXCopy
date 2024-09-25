@@ -13,10 +13,6 @@ import LetsMove
 import RxCocoa
 import RxSwift
 
-import AppCenter
-import AppCenterAnalytics
-import AppCenterCrashes
-
 let statusItemLengthWithSpeed: CGFloat = 72
 
 @main
@@ -102,8 +98,6 @@ class AppDelegate: NSObject, NSApplicationDelegate {
         if WebPortalManager.hasWebProtal {
             WebPortalManager.shared.addWebProtalMenuItem(&statusMenu)
         }
-        AutoUpgardeManager.shared.setup()
-        AutoUpgardeManager.shared.setupCheckForUpdatesMenuItem(checkForUpdateMenuItem)
         // install proxy helper
         _ = ClashResourceManager.check()
         PrivilegedHelperManager.shared.checkInstall()

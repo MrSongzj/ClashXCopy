@@ -25,9 +25,6 @@ target 'DevHelper' do
   pod 'RxCocoa'
   pod 'CocoaLumberjack/Swift'
   pod 'Starscream','3.1.1'
-  pod 'AppCenter/Analytics'
-  pod 'AppCenter/Crashes'
-  pod 'Sparkle','~>2.0'
   pod "FlexibleDiff"
   pod 'GzipSwift'
   pod 'SwiftLint'
