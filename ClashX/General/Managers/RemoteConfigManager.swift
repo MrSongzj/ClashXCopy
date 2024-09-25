@@ -143,6 +143,8 @@ class RemoteConfigManager {
             Logger.log("[getRemoteConfigData] url incorrect,\(config.name) \(config.url)")
             return
         }
+        let userAgent = HTTPHeader.defaultUserAgent.value.replacingOccurrences(of: "DevHelper/", with: "ClashX/")
+        urlRequest.setValue(userAgent, forHTTPHeaderField: "User-Agent")
         urlRequest.cachePolicy = .reloadIgnoringCacheData
 
         AF.request(urlRequest)
