@@ -15,7 +15,7 @@ post_install do |installer|
   end
 end
 
-target 'ClashX' do
+target 'DevHelper' do
   inhibit_all_warnings!
   use_modular_headers!
   pod 'LetsMove'
