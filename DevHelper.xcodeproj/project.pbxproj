@@ -19,7 +19,6 @@
 		491E6203258A424D00313AEF /* CommonUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 491E61FD258A424500313AEF /* CommonUtils.m */; };
 		49228457270AADE20027A4B6 /* RemoteConfigUpdateIntervalSettingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49228456270AADE20027A4B6 /* RemoteConfigUpdateIntervalSettingView.swift */; };
 		49281C802A1F01FA00F60935 /* DebugSettingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49281C7F2A1F01FA00F60935 /* DebugSettingViewController.swift */; };
-		4929F610258CD22E00A435F6 /* menu_icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4929F60F258CD22E00A435F6 /* menu_icon@2x.png */; };
 		4929F677258CD89B00A435F6 /* Country.mmdb.gz in Resources */ = {isa = PBXBuildFile; fileRef = 4929F676258CD89B00A435F6 /* Country.mmdb.gz */; };
 		4929F67F258CE04700A435F6 /* Settings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4929F67E258CE04700A435F6 /* Settings.swift */; };
 		4929F684258CE07500A435F6 /* UserDefaultWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4929F683258CE07500A435F6 /* UserDefaultWrapper.swift */; };
@@ -105,6 +104,7 @@
 		8A2BBEA727A03ACB0081EBEF /* ProxySetting.sdef in Resources */ = {isa = PBXBuildFile; fileRef = 8A2BBEA627A03ACB0081EBEF /* ProxySetting.sdef */; };
 		8ACD21BB27A04C7800BC4632 /* ProxySettingCommand.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ACD21BA27A04C7800BC4632 /* ProxySettingCommand.swift */; };
 		8ACD21BD27A04ED500BC4632 /* ProxyModeChangeCommand.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ACD21BC27A04ED500BC4632 /* ProxyModeChangeCommand.swift */; };
+		BD423C282CA421120090B961 /* menu_icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BD423C272CA421120090B961 /* menu_icon@2x.png */; };
 		DF11DF9D74EA35FF7F8E2313 /* libPods-DevHelper.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 946F10450554B039ADA315FE /* libPods-DevHelper.a */; };
 		F910AA24240134AF00116E95 /* ProxyGroupMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = F910AA23240134AF00116E95 /* ProxyGroupMenu.swift */; };
 		F915A4622366ADEF004840BE /* ClashConnection.swift in Sources */ = {isa = PBXBuildFile; fileRef = F915A4612366ADEF004840BE /* ClashConnection.swift */; };
@@ -176,7 +176,6 @@
 		491E61FD258A424500313AEF /* CommonUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CommonUtils.m; sourceTree = "<group>"; };
 		49228456270AADE20027A4B6 /* RemoteConfigUpdateIntervalSettingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoteConfigUpdateIntervalSettingView.swift; sourceTree = "<group>"; };
 		49281C7F2A1F01FA00F60935 /* DebugSettingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DebugSettingViewController.swift; sourceTree = "<group>"; };
-		4929F60F258CD22E00A435F6 /* menu_icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "menu_icon@2x.png"; sourceTree = "<group>"; };
 		4929F676258CD89B00A435F6 /* Country.mmdb.gz */ = {isa = PBXFileReference; lastKnownFileType = archive.gzip; path = Country.mmdb.gz; sourceTree = "<group>"; };
 		4929F67E258CE04700A435F6 /* Settings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Settings.swift; sourceTree = "<group>"; };
 		4929F683258CE07500A435F6 /* UserDefaultWrapper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserDefaultWrapper.swift; sourceTree = "<group>"; };
@@ -280,6 +279,7 @@
 		946F10450554B039ADA315FE /* libPods-DevHelper.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-DevHelper.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		98B2944606CBCE713E92DE74 /* Pods-DevHelper.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DevHelper.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DevHelper/Pods-DevHelper.debug.xcconfig"; sourceTree = "<group>"; };
 		A1485BCE642059532D01B8BA /* Pods-ClashX.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ClashX.release.xcconfig"; path = "Pods/Target Support Files/Pods-ClashX/Pods-ClashX.release.xcconfig"; sourceTree = "<group>"; };
+		BD423C272CA421120090B961 /* menu_icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "menu_icon@2x.png"; sourceTree = "<group>"; };
 		F910AA23240134AF00116E95 /* ProxyGroupMenu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProxyGroupMenu.swift; sourceTree = "<group>"; };
 		F915A4612366ADEF004840BE /* ClashConnection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClashConnection.swift; sourceTree = "<group>"; };
 		F9203A25236342820020D57D /* AppDelegate+..swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "AppDelegate+..swift"; sourceTree = "<group>"; };
@@ -470,7 +470,7 @@
 			isa = PBXGroup;
 			children = (
 				4929F676258CD89B00A435F6 /* Country.mmdb.gz */,
-				4929F60F258CD22E00A435F6 /* menu_icon@2x.png */,
+				BD423C272CA421120090B961 /* menu_icon@2x.png */,
 				49761DA621C9497000AE13EF /* dashboard */,
 				4989F98D20D0AE990001E564 /* sampleConfig.yaml */,
 			);
@@ -810,8 +810,8 @@
 				495340B020DE5F7200B0D3FF /* StatusItemView.xib in Resources */,
 				49CF3B2820CD7465001EBF94 /* Main.storyboard in Resources */,
 				499A485A22ED781100F6C675 /* RemoteConfigAddView.xib in Resources */,
-				4929F610258CD22E00A435F6 /* menu_icon@2x.png in Resources */,
 				4989F98E20D0AE990001E564 /* sampleConfig.yaml in Resources */,
+				BD423C282CA421120090B961 /* menu_icon@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

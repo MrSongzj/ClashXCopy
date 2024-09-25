@@ -55,8 +55,9 @@ class StatusItemView: NSView, StatusItemViewProtocol {
 
     func updateViewStatus(enableProxy: Bool) {
         if enableProxy {
-            imageView.contentTintColor = NSColor.labelColor
+            imageView.image?.isTemplate = false
         } else {
+            imageView.image?.isTemplate = true
             imageView.contentTintColor = NSColor.labelColor.withSystemEffect(.disabled)
         }
     }

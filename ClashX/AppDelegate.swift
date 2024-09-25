@@ -13,7 +13,7 @@ import LetsMove
 import RxCocoa
 import RxSwift
 
-let statusItemLengthWithSpeed: CGFloat = 72
+let statusItemLengthWithSpeed: CGFloat = 66
 
 @main
 class AppDelegate: NSObject, NSApplicationDelegate {
@@ -204,7 +204,7 @@ class AppDelegate: NSObject, NSApplicationDelegate {
             .bind { [weak self] show in
                 guard let self = self else { return }
                 self.showNetSpeedIndicatorMenuItem.state = (show ?? true) ? .on : .off
-                let statusItemLength: CGFloat = (show ?? true) ? statusItemLengthWithSpeed : 25
+                let statusItemLength: CGFloat = (show ?? true) ? statusItemLengthWithSpeed : 22
                 self.statusItem.length = statusItemLength
                 self.statusItemView.updateSize(width: statusItemLength)
                 self.statusItemView.showSpeedContainer(show: show ?? true)
