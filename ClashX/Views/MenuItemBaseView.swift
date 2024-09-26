@@ -72,7 +72,7 @@ class MenuItemBaseView: NSView {
     }
 
     func didClickView() {
-        assertionFailure("Please override this method")
+//        assertionFailure("Please override this method")
     }
 
     // MARK: Private
